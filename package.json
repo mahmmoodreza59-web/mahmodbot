@@ -1,0 +1,17 @@
+{
+  "name": "parsvpn-telegram-bot",
+  "version": "1.0.0",
+  "description": "ربات فروش اشتراک تلگرام (پارس وی پی ان) — قابل اجرا روی Railway",
+  "type": "module",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0"
+  }
+}
